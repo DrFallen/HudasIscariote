@@ -1,0 +1,43 @@
+»» HUDAS ISCARIOTE README ««
+############################
+
+
+	#Description#
+	
+	- High contrast HUD made to be minimalistic and visually appealing at the same time. Classy looking!
+
+
+
+	#Features#
+
+	- They say a Screenshot is worth a thousand words so you might as well check them first :)
+	=====
+	- Included modified SourceScheme with a smaller font for net_graph users;
+	- Included customized Close Captions (activated with "closecaption 1" in console);
+	- Both normal and pulsing crosshairs available (for more info check the FAQ);
+	- Smaller hit indicators!
+
+
+
+	#INSTALLATION#
+
+	- You have 2 options. You can either just copy the folder 'HUDASIscariote' to 'Program Files/Steam/steamapps/common/Team Fortress 2/tf/custom'
+	or you create a new folder in that exact location with whichever name you want (eg. HUDs) and copy the contents inside "HUDASIscariote' in there.
+
+
+
+	#Credits#
+
+	- Made by Quartz and Sir Villeta (Check http://deascrea.com/ for more awesome artwork) =)
+	- Special thanks to TausoN and Loksly for inspiring Sir Villeta with a name for the HUD, they are the real Judas of Team Fortress 2; <3
+	- Special thanks to iMp4ct for being such an awesome guy (Marry me!);
+	- Special thanks to broesel for the awesome talks and rantings and for helping when in need (Will have to pay
+	you a cookie sometime);
+	- Special thanks to chippy for having such sexy tits and for being the king of minimalism and drunk streaming;
+	- Special thanks to trog and omni for being such fine gentlemans and helping me with scoreboard variations :)
+	- Special thanks to Cygnasty for providing me with a server to test Sizzling stats on :D
+	- Thanks to all the HUD/Software/Pickup website/Streams making guys for helping and keeping this community
+	alive :)
+
+
+############################
