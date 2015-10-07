@@ -278,6 +278,10 @@
 		{
 			"image"		"../console/background_2fort"
 		}
+		if_community_update
+		{
+			"image"		"../console/background_2fort"
+		}
 	}
 
 	"BG"
