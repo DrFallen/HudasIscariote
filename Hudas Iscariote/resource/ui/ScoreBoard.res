@@ -8,21 +8,24 @@
 		"ypos"				"-0"
 		"wide"				"f0"
 		"tall"				"480"
+		"autoresize"		"1"
 		"visible"			"1"
 		"enabled"			"1"
-		"medal_width" 		"15"
+		"medal_width" 		"10"
 		"avatar_width"		"57"
-		"name_width"		"101"
-		//"name_width_short"	"78"
-		"name_width_minmode"	"80"
+		"spacer"			"20"
+		"name_width"		"100"
 		"status_width"		"15"
 		"nemesis_width"		"15"
-		"class_width"		"15"
+		"class_width"		"25"
 		"score_width"		"25"
-		"ping_width"		"19"
+		"ping_width"		"25"
 		"stats_width"		"30"
 		"killstreak_width"	"20"
+		"killstreak_image_width" "15"
 	}
+	
+	
 	"BluePlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
@@ -198,11 +201,11 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 
 		if_mvm
 		{
-			"visible"			"1"
+			"visible"			"0"
 		}
 	}
 	"BlueScoreBGShade"
