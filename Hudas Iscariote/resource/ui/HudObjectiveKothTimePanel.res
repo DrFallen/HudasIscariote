@@ -1,5 +1,13 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
+	"HudKothTimeStatus"
+	{
+		if_comp
+		{
+			"zpos"		"5"
+		}
+	}
+	
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -27,6 +35,13 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+			
+			if_comp
+			{
+				"font"		"museo12"
+				"xpos"			"43"
+				"ypos"			"8"
+			}
 		}	
 	}
 
@@ -57,6 +72,13 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+			
+			if_comp
+			{
+				"font"		"museo12"
+				"xpos"			"20"
+				"ypos"			"8"
+			}
 		}	
 	}
 	

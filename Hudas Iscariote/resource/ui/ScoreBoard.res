@@ -1141,6 +1141,33 @@
 			"wide"			"140"
 			"tall"			"39"
 			"fgcolor"		"234 234 234 255"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+                "textAlignment"	"east"
+				"font"		"Medium39"
+				"xpos"		"c-329"
+				"ypos"		"r178"
+                "wide"      "140"
+				"tall"		"41"
+			}
+		}
+		"Kills2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Kills2"
+			"font"			"Museo20"
+			"labelText"		"%kills%"
+			"textAlignment"	"west"
+			"xpos"			"c-157"
+			"xpos_minmode"	"c-177"
+			"ypos"			"r48"
+			"zpos"			"3"
+			"wide"			"140"
+			"tall"			"39"
+			"fgcolor"		"234 234 234 255"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1211,6 +1238,31 @@
 			"wide"			"140"
 			"tall"			"39"
 			"fgcolor"		"234 234 234 255"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Medium39"
+				"xpos"		"c-176"
+				"ypos"		"r178"
+				"tall"		"41"
+			}
+		}
+		"Deaths2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Deaths2"
+			"font"			"Museo20"
+			"labelText"		"%deaths%"
+			"textAlignment"	"west"
+			"xpos"			"c-157"
+			"xpos_minmode"	"c-177"
+			"ypos"			"r32"
+			"zpos"			"3"
+			"wide"			"140"
+			"tall"			"39"
+			"fgcolor"		"234 234 234 255"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1250,6 +1302,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Assists"
+			"font"			"Museo10"
+			"labelText"		"%assists%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"		"c-145"
+			"xpos_minmode"	"c-165"
+			"ypos"		"r38"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c-60"
+				"ypos"		"r172"
+			}
+		}
+		"Assists2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Assists2"
 			"font"			"Museo10"
 			"labelText"		"%assists%"
 			"fgcolor"		"234 234 234 255"
@@ -1308,6 +1384,30 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c-60"
+				"ypos"		"r162"
+			}
+		}
+		"Captures2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Captures2"
+			"font"		"Museo10"
+			"labelText"		"%captures%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c-55"
+			"xpos_minmode"	"c-75"
+			"ypos"			"r38"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1346,6 +1446,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses"
+			"font"		"Museo10"
+			"labelText"		"%defenses%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c-55"
+			"xpos_minmode"	"c-75"
+			"ypos"			"r28"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c-60"
+				"ypos"		"r152"
+			}
+		}
+		"Defenses2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Defenses2"
 			"font"		"Museo10"
 			"labelText"		"%defenses%"
 			"fgcolor"		"234 234 234 255"
@@ -1404,6 +1528,30 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c-60"
+				"ypos"		"r142"
+			}
+		}
+		"Domination2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Domination2"
+			"font"		"Museo10"
+			"labelText"		"%dominations%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"		"east"
+			"xpos"			"c-145"
+			"xpos_minmode"	"c-165"
+			"ypos"			"r18"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1442,6 +1590,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge"
+			"font"		"Museo10"
+			"labelText"		"%Revenge%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c-55"
+			"xpos_minmode"	"c-75"
+			"ypos"			"r18"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c-60"
+				"ypos"		"r132"
+			}
+		}
+		"Revenge2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Revenge2"
 			"font"		"Museo10"
 			"labelText"		"%Revenge%"
 			"fgcolor"		"234 234 234 255"
@@ -1500,6 +1672,30 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c-60"
+				"ypos"		"r122"
+			}
+		}
+		"Destruction2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Destruction2"
+			"font"		"Museo10"
+			"labelText"		"%destruction%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c-145"
+			"xpos_minmode"	"c-165"
+			"ypos"			"r28"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1538,6 +1734,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing"
+			"font"		"Museo10"
+			"labelText"		"%healing%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c125"
+			"xpos_minmode"	"c105"
+			"ypos"			"r38"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c125"
+				"ypos"		"r172"
+			}
+		}
+		"Healing2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Healing2"
 			"font"		"Museo10"
 			"labelText"		"%healing%"
 			"fgcolor"		"234 234 234 255"
@@ -1596,6 +1816,30 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c125"
+				"ypos"		"r162"
+			}
+		}
+		"Invuln2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Invuln2"
+			"font"		"Museo10"
+			"labelText"		"%invulns%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c35"
+			"xpos_minmode"	"c15"
+			"ypos"			"r18"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1634,6 +1878,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots"
+			"font"		"Museo10"
+			"labelText"		"%headshots%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c35"
+			"xpos_minmode"	"c15"
+			"ypos"			"r38"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c125"
+				"ypos"		"r152"
+			}
+		}
+		"Headshots2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Headshots2"
 			"font"		"Museo10"
 			"labelText"		"%headshots%"
 			"fgcolor"		"234 234 234 255"
@@ -1692,6 +1960,30 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c125"
+				"ypos"		"r142"
+			}
+		}
+		"Backstabs2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Backstabs2"
+			"font"		"Museo10"
+			"labelText"		"%backstabs%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c35"
+			"xpos_minmode"	"c15"
+			"ypos"			"r28"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1740,6 +2032,30 @@
 			"zpos"			"3"
 			"wide"			"162"
 			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c125"
+				"ypos"		"r132"
+			}
+		}
+		"Bonus2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Bonus2"
+			"font"			"Museo10"
+			"labelText"		"%bonus%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c125"
+			"xpos_minmode"	"c105"
+			"ypos"			"r28"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 
@@ -1778,6 +2094,30 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
+			"font"		"Museo10"
+			"labelText"		"%damage%"
+			"fgcolor"		"234 234 234 255"
+			"textAlignment"	"east"
+			"xpos"			"c125"
+			"xpos_minmode"	"c105"
+			"ypos"			"r18"
+			"zpos"			"3"
+			"wide"			"162"
+			"tall"			"16"
+			"visible"		"0"
+			"enabled"		"1"
+
+			if_mvm
+			{
+				"font"		"Museo9"
+				"xpos"		"c125"
+				"ypos"		"r122"
+			}
+		}
+		"Damage2"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage2"
 			"font"		"Museo10"
 			"labelText"		"%damage%"
 			"fgcolor"		"234 234 234 255"

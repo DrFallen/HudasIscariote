@@ -574,6 +574,97 @@
 		"border"		"MainMenuBGBorder"
 		"PaintBackgroundType"	"2"
 	}
+	
+	"WatchStreamButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"WatchStreamButton"
+		"xpos"			"192"
+		"ypos"			"300"
+		"zpos"			"1"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"labelText"		""
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"command"		"watch_stream"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"image_drawcolor"	"88 88 88 255"
+			"image_armedcolor"	"125 125 125 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"button_streaming"
+
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+				"keyboardinputenabled" "0"
+			}		
+		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"	"CTFStreamListPanel"
+		"fieldName"		"StreamListPanel"
+		"xpos"			"c5"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"350"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
+	}
 
 	"QuestLogButton"
 	{
@@ -1620,7 +1711,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"35"
-		"ypos"			"259"
+		"ypos"			"265"
 		"zpos"			"11"
 		"wide"			"146"
 		"tall"			"20"
@@ -1634,7 +1725,7 @@
 		
 		if_competitive
 		{
-			"ypos"		"259"
+			"ypos"		"265"
 		}
 
 		"SubButton"
@@ -1838,7 +1929,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"35"
-		"ypos"			"247"
+		"ypos"			"252"
 		"zpos"			"11"
 		"wide"			"146"
 		"tall"			"20"
@@ -1852,7 +1943,7 @@
 		
 		if_competitive
 		{
-			"ypos"		"242"
+			"ypos"		"252"
 		}
 
 		"SubButton"
@@ -2214,7 +2305,7 @@
 		"brighttext"		"0"
 	}
 
-"QuickplayButton"
+	"QuickplayButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"QuickplayButton"
@@ -2259,7 +2350,73 @@
 			
 			"FgColor" "234 234 234 255"			
 			"defaultFgColor_override" "234 234 234 255"
-			"armedFgColor_override" "255 150 0 255"
+			"armedFgColor_override" "0 221 255 255"
+			"depressedFgColor_override" "234 234 234 255"
+			
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"234 234 234 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"8"
+				"ypos"			"6"
+				"zpos"			"2"
+				"wide"			"11"
+				"tall"			"11"
+				"visible"		"0"
+				"enabled"		"0"
+				"scaleImage"	"1"
+			}		
+		}
+	}
+	
+	"PlayCompButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"PlayCompButton"
+		"xpos"			"35"
+		"ypos"			"211"
+		"zpos"			"11"
+		"wide"			"146"
+		"tall"			"20"
+		"visible"		"0"
+		"PaintBackgroundType"	"0"
+
+		"navDown"		"SettingsButton"
+		"navUp"			"ServerBrowserButton"
+		"navToRelay"	"SubButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"146"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"Museo12"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"FgColor" "234 234 234 255"			
+			"defaultFgColor_override" "234 234 234 255"
+			"armedFgColor_override" "0 221 255 255"
 			"depressedFgColor_override" "234 234 234 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2323,7 +2480,7 @@
 			
 			"FgColor" "234 234 234 255"			
 			"defaultFgColor_override" "234 234 234 255"
-			"armedFgColor_override" "255 150 0 255"
+			"armedFgColor_override" "0 221 255 255"
 			"depressedFgColor_override" "234 234 234 255"
 			
 			"image_drawcolor"	"0 0 0 0"
@@ -2409,88 +2566,6 @@
 				"enabled"		"0"
 				"scaleImage"	"1"
 			}		
-		}
-	}
-	
-	"PlayCompetitiveButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayCompetitiveButton"
-		"xpos"			"c-285"
-		"ypos"			"180"
-		"zpos"			"11"
-		"wide"			"270"
-		"tall"			"36"
-		"visible"		"0"
-		"enabled"		"0"
-		"PaintBackgroundType"	"0"
-
-		"navUp"			"PlayPVEButton"
-		"navDown"		"ServerBrowserButton"
-		"navRight"		"Notifications_ShowButtonPanel"
-		"navToRelay"	"SubButton"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"250"
-			"tall"			"26"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	"MainMenuButtonDefault"
-			"border_armed"		"MainMenuButtonArmed"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-
-		"CompetitiveBetaImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldname"		"CompetitiveBetaImage"
-			"xpos"			"223"
-			"ypos"			"3"
-			"zpos"			"12"
-			"wide"			"20"
-			"tall"			"20"
-			"visible"		"1"
-			"image"			"beta"
-			"scaleImage"	"1"
 		}
 	}
 		
@@ -3205,14 +3280,14 @@
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
 		}				
-	}		
-	
+	}
+
 	"TF2SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"25"
-		"ypos"			"218"
+		"ypos"			"221"
 		"zpos"			"11"
 		"wide"			"156"
 		"tall"			"20"
@@ -3247,6 +3322,7 @@
 			
 		"image_drawcolor"	"0 0 0 0"
 		"image_armedcolor"	"234 234 234 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3268,7 +3344,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"25"
-		"ypos"			"235"
+		"ypos"			"238"
 		"zpos"			"11"
 		"wide"			"156"
 		"tall"			"20"
@@ -3298,11 +3374,13 @@
 			
 		"FgColor" "234 234 234 255"			
 		"defaultFgColor_override" "234 234 234 255"
-		"armedFgColor_override" "255 150 0 255"
+		"armedFgColor_override" "0 221 255 255"
 		"depressedFgColor_override" "234 234 234 255"
 			
 		"image_drawcolor"	"0 0 0 0"
 		"image_armedcolor"	"234 234 234 255"
+		
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3317,14 +3395,14 @@
 			"scaleImage"	"1"
 			"image"			"glyph_practice"
 		}				
-	}		
+	}			
 	
 	"SettingsButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
 		"xpos"			"25"
-		"ypos"			"218"
+		"ypos"			"226"
 		"zpos"			"11"
 		"wide"			"156"
 		"tall"			"20"
@@ -3353,14 +3431,15 @@
 		"border_default"	""
 		"border_armed"		""
 		"paintbackground"	"0"
-
+			
 		"FgColor" "234 234 234 255"			
 		"defaultFgColor_override" "234 234 234 255"
-		"armedFgColor_override" "255 150 0 255"
+		"armedFgColor_override" "0 221 255 255"
 		"depressedFgColor_override" "234 234 234 255"
 			
 		"image_drawcolor"	"0 0 0 0"
 		"image_armedcolor"	"234 234 234 255"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
