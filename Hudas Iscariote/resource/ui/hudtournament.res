@@ -260,7 +260,7 @@
 			"wide"					"500"
 			"tall"					"480"
 
-			"team1_player_base_y"			"66"
+			"team1_player_base_y"			"70"
 			"team2_player_delta_x"			"52"
 		}		
 	}
@@ -283,6 +283,10 @@
 		if_competitive
 		{
 			"visible"	"0"
+		}
+		if_readymode
+		{
+			"wide"	"0"
 		}
 		if_mvm
 		{
@@ -308,6 +312,10 @@
 		"textAlignment"		"north-west"
 
 		if_competitive
+		{
+			"visible"	"0"
+		}
+		if_readymode
 		{
 			"visible"	"0"
 		}
@@ -340,6 +348,10 @@
 		{
 			"visible"	"0"
 		}
+		if_readymode
+		{
+			"visible"	"0"
+		}
 		if_mvm
 		{
 			"visible"		"0"
@@ -363,6 +375,10 @@
 		"PaintBackgroundType"	"0"
 		
 		if_competitive
+		{
+			"visible"	"0"
+		}
+		if_readymode
 		{
 			"visible"	"0"
 		}
@@ -390,6 +406,10 @@
 		"PaintBackgroundType"	"0"
 		
 		if_competitive
+		{
+			"visible"	"0"
+		}
+		if_readymode
 		{
 			"visible"	"0"
 		}
@@ -422,6 +442,10 @@
 		{
 			"visible"	"0"
 		}
+		if_readymode
+		{
+			"visible"	"0"
+		}
 		if_mvm
 		{
 			"visible"		"0"
@@ -450,6 +474,10 @@
 		{
 			"visible"	"0"
 		}
+		if_readymode
+		{
+			"visible"	"0"
+		}
 		if_mvm
 		{
 			"visible"		"0"
@@ -473,6 +501,10 @@
 		"PaintBackgroundType"	"0"
 		
 		if_competitive
+		{
+			"visible"	"0"
+		}
+		if_readymode
 		{
 			"visible"	"0"
 		}
@@ -506,6 +538,10 @@
 		{
 			"visible"	"0"
 		}
+		if_readymode
+		{
+			"visible"	"0"
+		}
 		if_mvm
 		{
 			"visible"		"0"
@@ -529,6 +565,10 @@
 		"PaintBackgroundType"	"0"
 		
 		if_competitive
+		{
+			"visible"	"0"
+		}
+		if_readymode
 		{
 			"visible"	"0"
 		}
@@ -561,6 +601,10 @@
 		{
 			"visible"	"0"
 		}
+		if_readymode
+		{
+			"visible"	"0"
+		}
 		if_mvm
 		{
 			"visible"		"0"
@@ -586,6 +630,10 @@
 		"textAlignment"		"west"
 
 		if_competitive
+		{
+			"visible"	"0"
+		}
+		if_readymode
 		{
 			"visible"	"0"
 		}
@@ -615,6 +663,10 @@
 		{
 			"visible"	"0"
 		}
+		if_readymode
+		{
+			"visible"	"0"
+		}
 		if_mvm
 		{
 			"visible"		"0"
@@ -640,9 +692,9 @@
 		"labelText"		"%winconditions%"
 		"textAlignment"		"center"
 
-		if_competitive
+		if_readymode
 		{
-			"visible"	"0"
+			"fgcolor"		"White"
 		}
 		if_mvm
 		{
@@ -676,6 +728,10 @@
 		{
 			"visible"	"0"
 		}
+		if_readymode
+		{
+			"visible"	"0"
+		}
 		if_mvm
 		{
 			"visible"		"0"
@@ -702,16 +758,23 @@
 
 		if_competitive
 		{
-			"visible"	"0"
+			"visible"	"1"
+			"ypos"		"120"
+		}
+		if_readymode
+		{
+			"visible"	"1"
+			"ypos"		"120"
 		}
 		if_mvm
 		{
 			"font"			"ChatFont"
 			"xpos"			"155"
-			"ypos"			"100"
+			"ypos"			"105"
 			"wide"			"190"
 			"tall"			"20"
 			"zpos"			"3"
+			"visible"		"1"
 		}
 	}
 	
@@ -792,7 +855,7 @@
 		
 		if_mvm
 		{
-		    "visible"   "1"
+		    "visible"   "0"
 		}
 		
 	}

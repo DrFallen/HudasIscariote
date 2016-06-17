@@ -507,11 +507,11 @@
             "fillcolor"		"32 32 32 240"
 			"xpos"			"c-295"
 			"ypos"			"r394"
-			"wide"			"402"
+			"wide"			"590"
 			"tall"			"171"
 			"xpos_minmode"			"c-295"
 			"ypos_minmode"			"r394"
-			"wide_minmode"			"402"
+			"wide_minmode"			"590"
 			"tall_minmode"			"171"
 		}
 	}
@@ -659,9 +659,9 @@
 		if_mvm
 		{
 		    "fgcolor"		"234 234 234 255"
-		    "textAlignment"	"center"
+		    "textAlignment"	"est"
 			"font"			"Book19"
-			"xpos"			"c-295"
+			"xpos"			"c-400"
 			"ypos"			"-2"
 			"tall"			"19"
 			"wide"			"591"

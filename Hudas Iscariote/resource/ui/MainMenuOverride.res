@@ -1239,7 +1239,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
 		"xpos"			"192"
-		"ypos"			"299"
+		"ypos"			"338"
 		"zpos"			"5"
 		"wide"			"32"
 		"tall"			"32"
@@ -1711,7 +1711,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
 		"xpos"			"35"
-		"ypos"			"265"
+		"ypos"			"259"
 		"zpos"			"11"
 		"wide"			"146"
 		"tall"			"20"
@@ -1725,7 +1725,7 @@
 		
 		if_competitive
 		{
-			"ypos"		"265"
+			"ypos"		"259"
 		}
 
 		"SubButton"
@@ -1929,7 +1929,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
 		"xpos"			"35"
-		"ypos"			"252"
+		"ypos"			"247"
 		"zpos"			"11"
 		"wide"			"146"
 		"tall"			"20"
@@ -1943,7 +1943,7 @@
 		
 		if_competitive
 		{
-			"ypos"		"252"
+			"ypos"		"242"
 		}
 
 		"SubButton"
@@ -3280,122 +3280,8 @@
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
 		}				
-	}
-
-	"TF2SettingsButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"TF2SettingsButton"
-		"xpos"			"25"
-		"ypos"			"221"
-		"zpos"			"11"
-		"wide"			"156"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#MMenu_AdvOptions"
-		"font"			"Museo12"
-		"textAlignment"	"west"
-		"textinsetx"	"35"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"opentf2options"
-
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-			
-		"FgColor" "234 234 234 255"			
-		"defaultFgColor_override" "234 234 234 255"
-		"armedFgColor_override" "0 221 255 255"
-		"depressedFgColor_override" "234 234 234 255"
-			
-		"image_drawcolor"	"0 0 0 0"
-		"image_armedcolor"	"234 234 234 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"18"
-			"ypos"			"6"
-			"zpos"			"2"
-			"wide"			"11"
-			"tall"			"11"
-			"visible"		"0"
-			"enabled"		"0"
-			"scaleImage"	"1"
-			"image"			"glyph_practice"
-		}				
 	}		
-	
-	"TF2SettingsButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"TF2SettingsButton"
-		"xpos"			"25"
-		"ypos"			"238"
-		"zpos"			"11"
-		"wide"			"156"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#MMenu_AdvOptions"
-		"font"			"Museo12"
-		"textAlignment"	"west"
-		"textinsetx"	"35"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"opentf2options"
 
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-			
-		"FgColor" "234 234 234 255"			
-		"defaultFgColor_override" "234 234 234 255"
-		"armedFgColor_override" "0 221 255 255"
-		"depressedFgColor_override" "234 234 234 255"
-			
-		"image_drawcolor"	"0 0 0 0"
-		"image_armedcolor"	"234 234 234 255"
-		
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"18"
-			"ypos"			"6"
-			"zpos"			"2"
-			"wide"			"11"
-			"tall"			"11"
-			"visible"		"0"
-			"enabled"		"0"
-			"scaleImage"	"1"
-			"image"			"glyph_practice"
-		}				
-	}			
 	
 	"SettingsButton"
 	{
@@ -4294,7 +4180,7 @@
 		"ypos"			"-3"
 		"zpos"			"-60"
 		"wide"			"320"
-		"tall"			"f0"
+		"tall"			"0"	//f0
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -4573,7 +4459,7 @@
 		"ypos"			"0"
 		"zpos"			"1"		
 		"wide"			"300"
-		"tall"			"300"
+		"tall"			"0"		//300
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"

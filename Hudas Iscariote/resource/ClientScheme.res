@@ -3299,7 +3299,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		""MuseoSansCyrl-500"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3311,29 +3311,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		""MuseoSansCyrl-500"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
+		
 		"MatchSummaryWinner"
 		{
 			"1"
 			{
-				"name"		""MuseoSansCyrl-500"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}
+			}		
 		}
+		
 		"CompMatchStartTeamNames"
 		{
 			"1"
 			{
-				"name"		""MuseoSansCyrl-500"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -4766,8 +4768,8 @@ Scheme
 			"image"					"../hud/color_panel_red_more_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -4788,8 +4790,8 @@ Scheme
 			"image"					"../hud/color_panel_blu_more_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBGOpaque
 		{
@@ -4799,8 +4801,8 @@ Scheme
 			"image"					"../hud/color_panel_blu_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderClearBG
 		{
@@ -4810,8 +4812,8 @@ Scheme
 			"image"					"../hud/color_panel_clear"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 
 		ToolTipBorder
