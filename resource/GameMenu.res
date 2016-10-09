@@ -9,13 +9,34 @@
 	{
 		"command" "engine connect [IP SERVER]"
 	}
-	"FindAGameButton"
+	"CasualButton"
 	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
+		"label" "Casual" 
+		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu"	"0"
 	}
+	"CompetitiveButton"
+	{
+		"label" "Competitive" 
+		"command" "play_competitive"
+		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu"	"0"
+	}
+	"MvMButton"
+	{
+		"label" "MvM" 
+		"command" "play_mvm"
+		"subimage" "glyph_multiplayer"
+		"OnlyAtMenu"	"0"
+	}
+	"ServerBrowserButton"
+	{
+		"label" "Servers" 
+		"command" "OpenServerBrowser"
+		"subimage" ""
+		"OnlyAtMenu" "0"
+	} 
 	"AdvancedSettingsButton"
 	{
 		"label"			"Advanced Options" 

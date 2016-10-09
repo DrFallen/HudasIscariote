@@ -3210,6 +3210,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardSmall"
 		{
 			"1"
@@ -3430,7 +3441,7 @@ Scheme
 "1"
 			{
 				"name"		"MuseoSansCyrl-500"
-				"tall"		"9"
+				"tall"		"18"
 	            "yres"		"480 599"
 				"dropshadow"	"1"
 				"antialias"		"1"
@@ -3438,7 +3449,7 @@ Scheme
 			"2"
 			{
 				"name"		"MuseoSansCyrl-500"
-				"tall"		"9"
+				"tall"		"18"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 				"antialias"		"1"
@@ -3454,7 +3465,7 @@ Scheme
 			"4"
 			{
 				"name"		"MuseoSansCyrl-500"
-				"tall"		"9"
+				"tall"		"18"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 				"antialias"		"1"
@@ -3462,7 +3473,7 @@ Scheme
 			"5"
 			{
 				"name"		"MuseoSansCyrl-500"
-				"tall"		"9"
+				"tall"		"18"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 				"antialias"		"1"
@@ -3782,7 +3793,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3794,7 +3805,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -3805,7 +3816,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -3818,7 +3829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -3829,7 +3840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -3840,7 +3851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -3850,7 +3861,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -3863,7 +3874,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -3874,7 +3885,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -3883,7 +3894,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"ocra"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3892,7 +3903,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"ocra"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -3905,7 +3916,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -3914,7 +3925,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"ocra"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -3923,7 +3934,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"ocra"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -3936,7 +3947,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"ocra"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -3948,7 +3959,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -3960,7 +3971,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -3969,7 +3980,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3978,7 +3989,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -3991,7 +4002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -4001,7 +4012,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -4011,7 +4022,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -4025,7 +4036,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -4034,7 +4045,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -4043,7 +4054,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -4056,7 +4067,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -4068,7 +4079,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -4080,7 +4091,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -4092,7 +4103,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -4103,7 +4114,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -4114,7 +4125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -4308,11 +4319,37 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"MuseoSansCyrl-500"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+		
+		"XPSource"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias" 	"1"
+				"custom"	"1"
+			}
+		}
+
+		"XPSource_Glow"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"11"
+				"weight"	"500"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+				"custom"	"1"
 			}
 		}
 	}
@@ -6814,6 +6851,30 @@ Scheme
 			"image"					"inner_shadow_border"
 			"src_corner_height"		"5"				// pixels inside the image
 			"src_corner_width"		"5"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
+		
+		OuterShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+
+		OuterShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"outer_shadow_border"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
