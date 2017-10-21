@@ -21,7 +21,8 @@
 		
 		if_match
 		{
-			"visible"	"0"
+			"visible"			"0"
+			"wide"				"0"
 		}
 
 	}
@@ -44,7 +45,8 @@
 		
 		if_match
 		{
-			"visible"	"0"
+			"visible"			"0"
+			"wide"				"0"
 		}
 
 	}
@@ -71,6 +73,12 @@
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
+		
+		if_match
+		{
+			"visible"			"0"
+			"wide"				"0"
+		}
 	}
 	"WaitingForPlayersLabel"
 	{
@@ -90,6 +98,12 @@
 		"wrap"			"0"
 		"font"			"Museo10"
 		"fgcolor"			"234 234 234 255"
+		
+		if_match
+		{
+			"visible"			"0"
+			"wide"				"0"
+		}
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -106,6 +120,12 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"visible"			"0"
+			"wide"				"0"
+		}
 	}
 	"OvertimeLabel"
 	{
@@ -125,6 +145,12 @@
 		"wrap"			"0"
 		"font"			"Museo10"
 		"fgcolor"			"234 234 234 255"
+		
+		if_match
+		{
+			"visible"			"0"
+			"wide"				"0"
+		}
 	}			
 	"OvertimeBG"
 	{
@@ -141,6 +167,12 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"visible"			"0"
+			"wide"				"0"
+		}
 	}
 	"SuddenDeathLabel"
 	{
@@ -160,6 +192,12 @@
 		"wrap"			"0"
 		"font"			"Museo10"
 		"fgcolor"			"234 234 234 255"
+		
+		if_match
+		{
+			"visible"			"0"
+			"wide"				"0"
+		}
 	}			
 	"SuddenDeathBG"
 	{
@@ -176,6 +214,12 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
+		
+		if_match
+		{
+			"visible"			"0"
+			"wide"				"0"
+		}
 	}	
 	"SetupLabel"
 	{
@@ -195,6 +239,12 @@
 		"wrap"			"0"
 		"font"			"Museo10"
 		"fgcolor"			"234 234 234 255"
+		
+		if_match
+		{
+			"visible"			"0"
+			"wide"				"0"
+		}
 	}	
 	"SetupBG"
 	{
@@ -217,6 +267,12 @@
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
+		
+		if_match
+		{
+			"visible"			"0"
+			"wide"				"0"
+		}
 	}
 	 "ServerTimeLimitLabel"
 	{

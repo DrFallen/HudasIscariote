@@ -252,8 +252,20 @@ event HudSpyDisguiseFadeIn
 
 event HudSpyDisguiseFadeOut
 {
-    Animate PlayerStatusSpyImage            Alpha       "0"         Linear 0.9 0.1  
-    Animate PlayerStatusClassImage          Alpha       "0"         Linear 0.0 0.0 
+    Animate PlayerStatusSpyImage            Alpha       "0"         	Linear 0.9 0.1  
+    Animate PlayerStatusClassImage          Alpha       "0"         	Linear 0.0 0.0 
+}
+
+//===========================================
+
+event WinPanel_CompPos
+{
+	Animate WinPanel ypos 5 linear 0 0
+}
+
+event WinPanel_NormalPos
+{
+	Animate WinPanel ypos 5 linear 0 0
 }
 
 //===========================================

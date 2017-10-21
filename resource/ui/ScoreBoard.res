@@ -36,7 +36,7 @@
 		"zpos"			"20"
 		"wide"			"279"
 		"wide_minmode"		"253"
-		"tall"			"247"
+		"tall"			"208"
 		"tall_minmode"		"122"
 		"visible"		"1"
 		"enabled"		"1"
@@ -61,7 +61,7 @@
 		"zpos"			"20"
 		"wide"			"279"
 		"wide_minmode"		"253"
-		"tall"			"247"
+		"tall"			"208"
 		"tall_minmode"		"121"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1126,33 +1126,6 @@
 				"visible"		"0"
 			}
 		}
-		"Kills"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Kills"
-			"font"			"Museo20"
-			"labelText"		"%kills%"
-			"textAlignment"	"west"
-			"xpos"			"c-157"
-			"xpos_minmode"	"c-177"
-			"ypos"			"r48"
-			"zpos"			"3"
-			"wide"			"140"
-			"tall"			"39"
-			"fgcolor"		"234 234 234 255"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-                "textAlignment"	"east"
-				"font"		"Medium39"
-				"xpos"		"c-329"
-				"ypos"		"r178"
-                "wide"      "140"
-				"tall"		"41"
-			}
-		}
 		"Kills2"
 		{
 			"ControlName"	"CExLabel"
@@ -1223,31 +1196,6 @@
 				"visible"		"0"
 			}
 		}
-		"Deaths"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Deaths"
-			"font"			"Museo20"
-			"labelText"		"%deaths%"
-			"textAlignment"	"west"
-			"xpos"			"c-157"
-			"xpos_minmode"	"c-177"
-			"ypos"			"r32"
-			"zpos"			"3"
-			"wide"			"140"
-			"tall"			"39"
-			"fgcolor"		"234 234 234 255"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Medium39"
-				"xpos"		"c-176"
-				"ypos"		"r178"
-				"tall"		"41"
-			}
-		}
 		"Deaths2"
 		{
 			"ControlName"	"CExLabel"
@@ -1294,30 +1242,6 @@
 			{
 				"font"		"Museo9"
 				"xpos"		"c-75"
-				"ypos"		"r172"
-			}
-		}
-		"Assists"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Assists"
-			"font"			"Museo10"
-			"labelText"		"%assists%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"		"c-145"
-			"xpos_minmode"	"c-165"
-			"ypos"		"r38"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c-60"
 				"ypos"		"r172"
 			}
 		}
@@ -1369,30 +1293,6 @@
 				"ypos"		"r162"
 			}
 		}
-		"Captures"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Captures"
-			"font"		"Museo10"
-			"labelText"		"%captures%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c-55"
-			"xpos_minmode"	"c-75"
-			"ypos"			"r38"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c-60"
-				"ypos"		"r162"
-			}
-		}
 		"Captures2"
 		{
 			"ControlName"	"CExLabel"
@@ -1438,30 +1338,6 @@
 			{
 				"font"		"Museo9"
 				"xpos"		"c-75"
-				"ypos"		"r152"
-			}
-		}
-		"Defenses"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Defenses"
-			"font"		"Museo10"
-			"labelText"		"%defenses%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c-55"
-			"xpos_minmode"	"c-75"
-			"ypos"			"r28"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c-60"
 				"ypos"		"r152"
 			}
 		}
@@ -1513,30 +1389,6 @@
 				"ypos"		"r142"
 			}
 		}
-		"Domination"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
-			"font"		"Museo10"
-			"labelText"		"%dominations%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"		"east"
-			"xpos"			"c-145"
-			"xpos_minmode"	"c-165"
-			"ypos"			"r18"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c-60"
-				"ypos"		"r142"
-			}
-		}
 		"Domination2"
 		{
 			"ControlName"		"CExLabel"
@@ -1582,30 +1434,6 @@
 			{
 				"font"		"Museo9"
 				"xpos"		"c-75"
-				"ypos"		"r132"
-			}
-		}
-		"Revenge"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Revenge"
-			"font"		"Museo10"
-			"labelText"		"%Revenge%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c-55"
-			"xpos_minmode"	"c-75"
-			"ypos"			"r18"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c-60"
 				"ypos"		"r132"
 			}
 		}
@@ -1657,30 +1485,6 @@
 				"ypos"		"r122"
 			}
 		}
-		"Destruction"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Destruction"
-			"font"		"Museo10"
-			"labelText"		"%destruction%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c-145"
-			"xpos_minmode"	"c-165"
-			"ypos"			"r28"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c-60"
-				"ypos"		"r122"
-			}
-		}
 		"Destruction2"
 		{
 			"ControlName"	"CExLabel"
@@ -1729,30 +1533,6 @@
 				"ypos"		"r172"
 			}
 		}		
-		"Healing"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Healing"
-			"font"		"Museo10"
-			"labelText"		"%healing%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c125"
-			"xpos_minmode"	"c105"
-			"ypos"			"r38"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c125"
-				"ypos"		"r172"
-			}
-		}
 		"Healing2"
 		{
 			"ControlName"	"CExLabel"
@@ -1798,30 +1578,6 @@
 			{
 				"font"		"Museo9"
 				"xpos"		"c110"
-				"ypos"		"r162"
-			}
-		}
-		"Invuln"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Invuln"
-			"font"		"Museo10"
-			"labelText"		"%invulns%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c35"
-			"xpos_minmode"	"c15"
-			"ypos"			"r18"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c125"
 				"ypos"		"r162"
 			}
 		}
@@ -1873,30 +1629,6 @@
 				"ypos"		"r152"
 			}
 		}
-		"Headshots"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Headshots"
-			"font"		"Museo10"
-			"labelText"		"%headshots%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c35"
-			"xpos_minmode"	"c15"
-			"ypos"			"r38"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c125"
-				"ypos"		"r152"
-			}
-		}
 		"Headshots2"
 		{
 			"ControlName"	"CExLabel"
@@ -1942,30 +1674,6 @@
 			{
 				"font"		"Museo9"
 				"xpos"		"c110"
-				"ypos"		"r142"
-			}
-		}
-		"Backstabs"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Backstabs"
-			"font"		"Museo10"
-			"labelText"		"%backstabs%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c35"
-			"xpos_minmode"	"c15"
-			"ypos"			"r28"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c125"
 				"ypos"		"r142"
 			}
 		}
@@ -2017,30 +1725,6 @@
 				"ypos"		"r132"
 			}
 		}
-		"Bonus"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Bonus"
-			"font"			"Museo10"
-			"labelText"		"%bonus%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c125"
-			"xpos_minmode"	"c105"
-			"ypos"			"r28"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c125"
-				"ypos"		"r132"
-			}
-		}
 		"Bonus2"
 		{
 			"ControlName"	"CExLabel"
@@ -2086,30 +1770,6 @@
 			{
 				"font"		"Museo9"
 				"xpos"		"c110"
-				"ypos"		"r122"
-			}
-		}
-		"Damage"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Damage"
-			"font"		"Museo10"
-			"labelText"		"%damage%"
-			"fgcolor"		"234 234 234 255"
-			"textAlignment"	"east"
-			"xpos"			"c125"
-			"xpos_minmode"	"c105"
-			"ypos"			"r18"
-			"zpos"			"3"
-			"wide"			"162"
-			"tall"			"16"
-			"visible"		"0"
-			"enabled"		"1"
-
-			if_mvm
-			{
-				"font"		"Museo9"
-				"xpos"		"c125"
 				"ypos"		"r122"
 			}
 		}
@@ -2199,6 +1859,151 @@
 				"wide"			"178"
 				"visible"		"0"
 			}	
+		}
+		
+		"Kills"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Kills"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Deaths"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Deaths"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Assists"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Assists"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Destruction"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Destruction"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Captures"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Captures"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Defenses"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Defenses"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Domination"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Domination"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Revenge"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Revenge"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Healing"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Healing"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Invuln"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Invuln"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Teleports"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Teleports"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Headshots"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Headshots"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Backstabs"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Backstabs"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Bonus"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Bonus"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 	}
 
